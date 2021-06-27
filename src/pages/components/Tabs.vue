@@ -36,7 +36,6 @@
                 </template>
                 <img class="d-block" src="img/nuestros-servicios/ejemplo.jpeg" alt="First slide" style="width: 50%; margin:auto" />
                 <p>
-                  Realizamos todo tipo de imágenes: Realistas, esquemas, plantas y cortes 3D. Recorridos en videos y Renders 360°.
                 </p>
               </tab-pane>
             </tabs>
