@@ -27,6 +27,7 @@
           data-toggle="tab"
           role="tablist"
           aria-expanded="true"
+          style="margin-left: 10px;"
           :key="tab.id"
         >
           <a
@@ -35,7 +36,7 @@
             :href="`#${tab.id}`"
             @click.prevent="activateTab(tab)"
             :aria-expanded="tab.active"
-            class="nav-link"
+            class="btn btn-warning btn-round btn-lg"
             :class="{ active: tab.active, disabled: tab.disabled }"
           >
             <tab-item-content :tab="tab"> </tab-item-content>
