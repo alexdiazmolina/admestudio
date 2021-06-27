@@ -100,7 +100,7 @@
     <!-- <javascript-components></javascript-components> -->
     <signup-form></signup-form>
     
-    <download-section></download-section>
+    <!-- <download-section></download-section> -->
   </div>
 </template>
 <script>
@@ -116,7 +116,7 @@ import { Parallax } from '@/components';
 // import NucleoIconsSection from './components/NucleoIconsSection';
 import SignupForm from './components/SignupForm';
 import ExamplesSection from './components/ExamplesSection';
-import DownloadSection from './components/DownloadSection';
+// import DownloadSection from './components/DownloadSection';
 
 export default {
   name: 'index',
@@ -134,7 +134,7 @@ export default {
     // NucleoIconsSection,
     SignupForm,
     ExamplesSection,
-    DownloadSection
+    //DownloadSection
   }
 };
 </script>
