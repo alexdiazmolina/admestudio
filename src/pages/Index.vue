@@ -27,7 +27,14 @@
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
                 />
-                <h4 class="title">DISEÑO</h4>
+                <h4 class="title">
+                <a
+                  href="/landing"
+                  class="btn btn-default btn-round btn-lg"
+                  style="font-weight: bold;"
+                  target="_blank"
+                  >DISEÑO</a>
+                </h4>
                 <p class="description">
                   Diseñamos obra nueva, interiores y remodelaciones. Realizamos presentaciones de proyectos, láminas y catálogos.
                 </p>
@@ -41,7 +48,14 @@
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
                 />
-                <h4 class="title">DOCUMENTACION</h4>
+                <h4 class="title">
+                <a
+                href="/landing"
+                class="btn btn-default btn-round btn-lg"
+                style="font-weight: bold;"
+                target="_blank"
+                >DOCUMENTACION</a>
+                </h4>
                 <p class="description">
                   Realizamos documentación ejecutiva con software BIM de todo tipo de proyectos.
                 </p>
@@ -55,7 +69,14 @@
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
                 />
-                <h4 class="title">VISUALIZACION</h4>
+                <h4 class="title">
+                <a
+                  href="/landing"
+                  class="btn btn-default btn-round btn-lg"
+                  style="font-weight: bold;"
+                  target="_blank"
+                  >VISUALIZACION</a>
+                </h4>
                 <p class="description">
                   Realizamos todo tipo de imágenes: Realistas, esquemas, plantas y cortes 3D. Recorridos en videos y Renders 360°
                 </p>
@@ -64,13 +85,8 @@
           </div>
         </div>
       </div>
-      <a
-      href="/landing"
-      class="btn btn-primary btn-round btn-lg"
-      target="_blank"
-      >Conocé más</a>
     </div>
-    <carousel-section></carousel-section>
+    <!-- <carousel-section></carousel-section> -->
     <examples-section></examples-section>
     <!-- <tabs-section></tabs-section>
     <nucleo-icons-section></nucleo-icons-section> -->
@@ -96,7 +112,7 @@ import { Parallax } from '@/components';
 // import Notifications from './components/Notifications';
 // import Typography from './components/Typography';
 // import JavascriptComponents from './components/JavascriptComponents';
-import CarouselSection from './components/CarouselSection';
+// import CarouselSection from './components/CarouselSection';
 // import NucleoIconsSection from './components/NucleoIconsSection';
 import SignupForm from './components/SignupForm';
 import ExamplesSection from './components/ExamplesSection';
@@ -114,7 +130,7 @@ export default {
     // Notifications,
     // Typography,
     // JavascriptComponents,
-    CarouselSection,
+    // CarouselSection,
     // NucleoIconsSection,
     SignupForm,
     ExamplesSection,
