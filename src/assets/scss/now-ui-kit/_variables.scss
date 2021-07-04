@@ -62,7 +62,7 @@ $info-color-opacity:         rgba(44, 168, 255, .3) !default;
 $info-color-alert:           rgba(44, 168, 255, .8) !default;
 
 $warning-color:              #FFB236 !default;
-$warning-states-color:       lighten($warning-color, 6%) !default;
+$warning-states-color:       lighten($warning-color, 15%) !default;
 $warning-color-opacity:      rgba(255, 178, 54, .3) !default;
 $warning-color-alert:        rgba(255, 178, 54, .8) !default;
 
@@ -241,6 +241,12 @@ $nc-li-width:         (30em / 14) !default;
 $nc-padding-width:    (1em/3) !default;
 
 // Social icons color
+$social-whatsapp:                   #439c40 !default;
+$social-whatsapp-state-color:       lighten(#439c40, 6%) !default;
+
+$social-whatsapp:                   #439c40 !default;
+$social-whatsapp-state-color:       lighten(#439c40, 6%) !default;
+
 $social-twitter:                   #55acee !default;
 $social-twitter-state-color:       lighten(#55acee, 6%) !default;
 

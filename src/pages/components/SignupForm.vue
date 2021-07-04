@@ -8,7 +8,26 @@
         <card class="card-signup" header-classes="text-center" color="orange">
           <template slot="header">
             <h3 class="card-title title-up">Contactanos</h3>
-            
+            <div class="social-line">
+              <a
+                href="#pablo"
+                class="btn btn-neutral btn-linkedin btn-icon btn-round"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="#pablo"
+                class="btn btn-neutral btn-whatsapp btn-icon btn-lg btn-round"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a
+                href="#pablo"
+                class="btn btn-neutral btn-instagram btn-icon btn-round"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
           </template>
           <template>
             <fg-input
@@ -31,9 +50,19 @@
               addon-left-icon="now-ui-icons ui-1_email-85"
             >
             </fg-input>
+
+            <div class="textarea-container">
+              <textarea
+                class="form-control"
+                name="name"
+                rows="4"
+                cols="80"
+                placeholder="Escribe un mensaje..."
+              >Hola! Quiero recibir información</textarea>
+            </div>
           </template>
           <div class="card-footer text-center">
-            <n-button type="neutral" round size="lg">Get Started</n-button>
+            <n-button type="neutral" round size="lg">Enviar</n-button>
           </div>
         </card>
       </div>

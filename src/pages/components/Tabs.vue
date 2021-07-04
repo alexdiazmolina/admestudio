@@ -27,7 +27,7 @@
                 </template>
                 <img class="d-block" src="img/nuestros-servicios/ejemplo.jpeg" alt="First slide" style="width: 50%; margin:auto" />
                 <p>
-                  Realizamos documentación ejecutiva con software BIM de todo tipo de proyectos.
+                  Realizamos documentación  con software BIM de todo tipo de proyectos.
                 </p>
               </tab-pane>
               <tab-pane>

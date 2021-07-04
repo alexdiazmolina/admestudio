@@ -171,6 +171,28 @@
   }
 }
 
+.btn-whatsapp {
+
+    &,
+    &:hover,
+    &focus,
+    &:active,
+    &:active:focus {
+      color: $social-whatsapp !important;
+    }
+}
+
+.btn-instagram {
+
+    &,
+    &:hover,
+    &focus,
+    &:active,
+    &:active:focus {
+        color: $social-instagram !important;
+    }
+}
+
 .btn-google {
   &,
   &:hover,
