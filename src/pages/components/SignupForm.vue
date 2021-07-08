@@ -30,8 +30,10 @@
             </div>
           </template>
           <template>
+            
             <fg-input
               class="no-border"
+              name="input-name"
               placeholder="Nombre..."
               addon-left-icon="now-ui-icons users_circle-08"
             >
@@ -39,6 +41,7 @@
 
             <fg-input
               class="no-border"
+              name="input-phone"
               placeholder="Teléfono..."
               addon-left-icon="now-ui-icons text_caps-small"
             >
@@ -46,6 +49,7 @@
 
             <fg-input
               class="no-border"
+              name="input-email"
               placeholder="Email"
               addon-left-icon="now-ui-icons ui-1_email-85"
             >
