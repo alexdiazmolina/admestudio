@@ -73,7 +73,8 @@ export default {
   },
   data() {
     return {
-      focused: false
+      focused: false,
+      valid: false,
     };
   },
   computed: {
@@ -96,8 +97,17 @@ export default {
     }
   },
   methods: {
+    // TODO: Implementar validaciones
+     /* validateInput(evt) {
+
+      }
+    }, */
     updateValue(evt) {
+      var tempValue
       let value = evt.target.value;
+      tempValue = evt.target.value;
+      // TODO: Agregar validaciones acá
+      this.value = tempValue;
       this.$emit('input', value);
     },
     onFocus(value) {

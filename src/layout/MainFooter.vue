@@ -23,7 +23,20 @@
       <div class="copyright">
         &copy; {{ year }}, Designed by
         <a href="https:///www.invisionapp.com" target="_blank" rel="noopener"
-          >martinandres.perez@gmail.com</a
+          >Invision</a
+        
+        >. Coded by
+        <a href="https://binarcode.com" target="_blank" rel="noopener"
+          >BinarCode</a
+        >
+        and
+        <a href="https://www.creative-tim.com" target="_blank" rel="noopener"
+          >Creative Tim</a
+        >.
+        <br>
+        Adapted by
+        <a href="https://www.linkedin.com/in/mperez91/" target="_blank" rel="noopener"
+          >Martín Andrés Pérez</a
         >
       </div>
     </div>
