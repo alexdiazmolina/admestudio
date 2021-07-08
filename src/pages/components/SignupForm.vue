@@ -34,6 +34,7 @@
             <fg-input
               class="no-border"
               name="input-name"
+              v-model="form.name"
               placeholder="Nombre..."
               addon-left-icon="now-ui-icons users_circle-08"
             >
@@ -42,6 +43,7 @@
             <fg-input
               class="no-border"
               name="input-phone"
+              v-model="form.phone"
               placeholder="Teléfono..."
               addon-left-icon="now-ui-icons text_caps-small"
             >
@@ -50,6 +52,7 @@
             <fg-input
               class="no-border"
               name="input-email"
+              v-model="form.email"
               placeholder="Email"
               addon-left-icon="now-ui-icons ui-1_email-85"
             >
@@ -59,14 +62,15 @@
               <textarea
                 class="form-control"
                 name="name"
+                v-model="form.message"
                 rows="4"
                 cols="80"
                 placeholder="Escribe un mensaje..."
-              >Hola! Quiero recibir información</textarea>
+              ></textarea>
             </div>
           </template>
           <div class="card-footer text-center">
-            <n-button type="neutral" round size="lg">Enviar</n-button>
+            <n-button type="neutral" round size="lg" @click="sendEmail">Enviar</n-button>
           </div>
         </card>
       </div>
@@ -74,14 +78,53 @@
   </div>
 </template>
 <script>
+/* function sendEmail(){
+  window.open('mailto:your@email.address?subject=Comments about the color blue');
+} */
 import { Card, FormGroupInput, Button } from '@/components';
-
+import emailjs from 'emailjs-com';
 export default {
   components: {
     Card,
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput
+  },
+  methods: {
+    sendEmail() {
+      if (this.form.name == '' || this.form.phone == '' || this.form.email == '') {
+        alert("Debe completar todos los campos")
+      } else {
+        var tempParams = {
+          name: this.form.name,
+          message: this.form.message,
+          phone: this.form.phone,
+          email: this.form.email,
+        }
+        emailjs.init("user_gpdRypdNvyotcaCB6swOs");
+        emailjs.send('service_xpxxwbd', 'template_v0ivt8d', tempParams)
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+            alert("Se envío el correo. Gracias por contactarnos!");
+        }, (error) => {
+          console.log('FAILED...', error);
+          alert(error);
+        });
+
+      }
+    },
+  },
+  data() {
+    return {
+      form: {
+        name: '',
+        phone: '',
+        email: '',
+        message: 'Hola ADM Estudio! Quiero recibir información!',
+        content: ''
+      }
+    };
   }
 };
+
 </script>
 <style></style>
