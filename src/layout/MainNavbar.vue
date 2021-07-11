@@ -10,17 +10,6 @@
       <router-link v-popover:popover1 class="navbar-brand" to="/">
         <img class="n-logo" src="img/02_LOGO BLANCO.png" alt="" style="width: 45px;"/>
       </router-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="200"
-        trigger="hover"
-      >
-        <div class="popover-body">
-          Web creada por martinandres.perez@gmail.com
-        </div>
-      </el-popover>
     </template>
     <template slot="navbar-menu">
       <drop-down
@@ -48,8 +37,7 @@
         <!-- TODO: direccionar -->
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit" 
-          target="_blank"
+          href="#portfolio"
         >
           <i class="now-ui-icons location_map-big"></i>
           <p>Portfolio</p>
@@ -86,7 +74,7 @@
           rel="tooltip"
           title="Suscribite a nuestro canal de YouTube"
           data-placement="bottom"
-          href=""
+          href="https://www.youtube.com/channel/UCujuxwfaWNjrlWHvf28F20g/"
           target="_blank"
         >
           <i class="fab fa-youtube"></i>

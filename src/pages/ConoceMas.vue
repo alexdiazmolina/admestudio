@@ -84,26 +84,19 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                    src="img/avatar.jpg"
+                    src="img/alandimauro.jpeg"
                     alt="Thumbnail Image"
                     class="rounded-circle img-fluid img-raised"
                 />
-                <h4 class="title">Romina Hadid</h4>
-                <p class="category text-primary">Model</p>
+                <h4 class="title">Alan Di Mauro</h4>
+                <p class="category text-primary">Arquitecto BIM</p>
                 <p class="description">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#">links</a> for people to be able to follow
-                  them outside the site.
+                  Arquitecto egresado de la Universidad de Buenos Aires,
+                  poseo experiencia en BIM, diseño, documentación de proyectos
+                  y dirección de obra.
                 </p>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="#pablo" class="btn btn-primary btn-icon btn-round"
-                ><i class="fab fa-facebook-square"></i
+                <a href="https://www.linkedin.com/in/alandimauro/" target="_blank" class="btn btn-primary btn-icon btn-round"
+                ><i class="fab fa-linkedin"></i
                 ></a>
               </div>
             </div>
@@ -113,7 +106,7 @@
       </div>
     </div>
 
-    <signup-form></signup-form>
+    <contac-us-form id="conoce-mas-contacto"></contac-us-form>
   </div>
 </template>
 <script>
@@ -121,12 +114,12 @@ import { Button, FormGroupInput } from '@/components';
 import LandingDesignSection from "@/pages/components/LandingDesignSection";
 import LandingDocumentationSection from "@/pages/components/LandingDocumentationSection";
 import LandingVisualizationSection from "@/pages/components/LandingVisualizationSection";
-import SignupForm from "@/pages/components/SignupForm";
+import ContacUsForm from "@/pages/components/ContacUsForm";
 export default {
   name: 'landing',
   bodyClass: 'landing-page',
   components: {
-    SignupForm,
+    ContacUsForm,
     LandingVisualizationSection,
     LandingDocumentationSection,
     LandingDesignSection,

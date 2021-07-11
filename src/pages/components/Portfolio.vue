@@ -51,7 +51,7 @@
 
             <tab-pane title="Brochures">
               <div slot="label" style="font-weight: bold;">
-                BROCHURES
+                BROCHURESb
               </div>
 
               <div class="col-md-10 ml-auto mr-auto">
