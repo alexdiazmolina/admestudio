@@ -9,11 +9,12 @@
             ultricies integer quis auctor elit sed vulputate mi sit amet mauris commodo quis imperdiet massa
             tincidunt nunc pulvinar sapien et ligula ullamcorper libero justo laoreet sit amet cursus sit amet
             dictum sit amet justo donec enim.</h5>
-          <a
-              href="/#porfolio"
+          <router-link
               class="btn btn-warning btn-round btn-lg"
+              to="/"
+              v-scroll-to="'#home-portfolio'"
               style="font-weight: bold;"
-          >Ver porfolio</a>
+          >Ver portfolio</router-link>
           <a
               href="https://www.youtube.com/channel/UCujuxwfaWNjrlWHvf28F20g/"
               class="btn btn-warning btn-round btn-lg"

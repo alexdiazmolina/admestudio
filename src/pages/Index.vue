@@ -86,7 +86,7 @@
         </div>
       </div>
     </div>
-    <portfolio id="portfolio"></portfolio>
+    <portfolio id="home-portfolio"></portfolio>
     <contac-us-form id="contacto"></contac-us-form>
   </div>
 </template>

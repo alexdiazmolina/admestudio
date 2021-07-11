@@ -77,7 +77,7 @@
 import { Tabs, TabPane } from '@/components';
 
 export default {
-  name: 'profile',
+  name: 'portfolio',
   bodyClass: 'profile-page',
   components: {
     Tabs,

@@ -18,50 +18,52 @@
               icon="now-ui-icons design-2_ruler-pencil"
               class="nav-item"
       >
-        <nav-link to="/#nuestros-servicios">
+        <nav-link to="/" v-scroll-to="'#nuestros-servicios'">
           <i class="now-ui-icons education_paper"></i> Diseño
         </nav-link>
-        <nav-link to="/#nuestros-servicios">
+        <nav-link to="/"  v-scroll-to="'#nuestros-servicios'">
           <i class="now-ui-icons users_circle-08"></i> Documentación
         </nav-link>
-        <nav-link to="/#nuestros-servicios">
+        <nav-link to="/"  v-scroll-to="'#nuestros-servicios'" >
           <i class="now-ui-icons users_single-02"></i> Visualización
         </nav-link>
-        <nav-link to="/conoce-mas">
+        <nav-link to="conoce-mas" target="_blank">
           <i class="now-ui-icons users_single-02"></i> Conocé más
         </nav-link>
       </drop-down>
 
 
       <li class="nav-item">
-        <a
+        <router-link
           class="nav-link"
-          href="/#portfolio"
+          to="/"
+          v-scroll-to="'#home-portfolio'"
         >
           <i class="now-ui-icons location_map-big"></i>
           <p>Portfolio</p>
-        </a>
+        </router-link>
       </li>
 
       <li class="nav-item">
-        <a
+        <router-link
           class="nav-link"
-          href="/#/conoce-mas"
+          to="conoce-mas"
           target="_blank"
         >
           <i class="now-ui-icons business_badge"></i>
           <p>Sobre nosotros</p>
-        </a>
+        </router-link>
       </li>
 
       <li class="nav-item">
-        <a
+        <router-link
           class="nav-link"
-          href="/#contacto"
+          to="/"
+          v-scroll-to="'#contacto'"
         >
           <i class="now-ui-icons ui-1_email-85"></i>
           <p>Contacto</p>
-        </a>
+        </router-link>
       </li>
 
       <li class="nav-item">

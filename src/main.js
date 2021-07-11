@@ -20,11 +20,12 @@ import App from './App.vue';
 import router from './router';
 import NowUiKit from './plugins/now-ui-kit';
 import VueScrollTo from 'vue-scrollto'
+
 Vue.config.productionTip = false;
 
-Vue.use(VueScrollTo)
+Vue.use(VueScrollTo);
 Vue.use(NowUiKit);
-
+Vue.use(VueScrollTo);
 new Vue({
   router,
   render: h => h(App)
