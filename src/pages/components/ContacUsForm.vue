@@ -100,8 +100,8 @@ export default {
           phone: this.form.phone,
           email: this.form.email,
         }
-        emailjs.init("user_gpdRypdNvyotcaCB6swOs");
-        emailjs.send('service_xpxxwbd', 'template_v0ivt8d', tempParams)
+        emailjs.init("user_1IJRvpHRSEitYB4Qqs3vk");
+        emailjs.send('service_lsxrqpq', 'template_fy8hlpm', tempParams)
         .then((result) => {
             console.log('SUCCESS!', result.status, result.text);
             alert("Se envío el correo. Gracias por contactarnos!");

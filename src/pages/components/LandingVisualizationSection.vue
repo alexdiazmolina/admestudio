@@ -10,7 +10,7 @@
             tincidunt nunc pulvinar sapien et ligula ullamcorper libero justo laoreet sit amet cursus sit amet
             dictum sit amet justo donec enim.</h5>
           <a
-              href="/#/#porfolio"
+              href="/#porfolio"
               class="btn btn-warning btn-round btn-lg"
               style="font-weight: bold;"
           >Ver porfolio</a>
@@ -27,7 +27,7 @@
       </div>
       <div class="row" style="justify-content: center;">
         <a
-            href="conoce-mas#conoce-mas-contacto"
+            href="#conoce-mas-contacto"
             class="btn btn-primary btn-round btn-lg"
         >Pedinos más información</a>
       </div>

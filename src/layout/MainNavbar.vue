@@ -18,26 +18,25 @@
               icon="now-ui-icons design-2_ruler-pencil"
               class="nav-item"
       >
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="/#nuestros-servicios">
           <i class="now-ui-icons education_paper"></i> Diseño
         </nav-link>
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="/#nuestros-servicios">
           <i class="now-ui-icons users_circle-08"></i> Documentación
         </nav-link>
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="/#nuestros-servicios">
           <i class="now-ui-icons users_single-02"></i> Visualización
         </nav-link>
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="/conoce-mas">
           <i class="now-ui-icons users_single-02"></i> Conocé más
         </nav-link>
       </drop-down>
 
 
       <li class="nav-item">
-        <!-- TODO: direccionar -->
         <a
           class="nav-link"
-          href="#portfolio"
+          href="/#portfolio"
         >
           <i class="now-ui-icons location_map-big"></i>
           <p>Portfolio</p>
@@ -45,10 +44,9 @@
       </li>
 
       <li class="nav-item">
-        <!-- TODO: direccionar -->
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit" 
+          href="/#/conoce-mas"
           target="_blank"
         >
           <i class="now-ui-icons business_badge"></i>
@@ -57,11 +55,9 @@
       </li>
 
       <li class="nav-item">
-        <!-- TODO: direccionar -->
         <a
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit" 
-          target="_blank"
+          href="/#contacto"
         >
           <i class="now-ui-icons ui-1_email-85"></i>
           <p>Contacto</p>

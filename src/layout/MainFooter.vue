@@ -8,15 +8,7 @@
       <nav>
         <ul>
           <li>
-            <router-link v-popover:popover1 class="navbar-brand" to="/">
-              <img class="n-logo" src="img/02_LOGO BLANCO.png" alt="" style="width: 45px;"/>
-              Estudio
-            </router-link>
-          </li>
-          <li>
-            <a href="https:///presentation.creative-tim.com">
-              Sobre Nosotros
-            </a>
+            Ciudad Autónoma de Buenos Aires | +54 911 6151 1782 | contacto.admestudio@gmail.com
           </li>
         </ul>
       </nav>
