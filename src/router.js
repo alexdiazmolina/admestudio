@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
-import LandingConoceMas from './pages/ConoceMas.vue';
+import ConoceMas from './pages/ConoceMas.vue';
 import MainNavbar from './layout/MainNavbar.vue';
 import MainFooter from './layout/MainFooter.vue';
 
@@ -15,16 +15,16 @@ export default new Router({
       name: 'index',
       components: { default: Index, header: MainNavbar, footer: MainFooter },
       props: {
-        header: { colorOnScroll: 400 },
+        header: { colorOnScroll: 300 },
         footer: { backgroundColor: 'black' }
       }
     },
     {
       path: '/conoce-mas',
       name: 'conoce-mas',
-      components: { default: LandingConoceMas, header: MainNavbar, footer: MainFooter },
+      components: { default: ConoceMas, header: MainNavbar, footer: MainFooter },
       props: {
-        header: { colorOnScroll: 400 },
+        header: { colorOnScroll: 200 },
         footer: { backgroundColor: 'black' }
       }
     },
