@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-header page-header-small">
+    <div class="page-header page-header-small clear-filter" filter-color="orange">
       <parallax
         class="page-header-image"
         style="background-image: url('img/conoce-mas-landing/01_LAND_superior.jpg')"
@@ -12,15 +12,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row" style="justify-content: center;">
+    <div class="section section-team text-center" style="background-image:url('img/imageedit_1_3740289679.png')">
+      <div class="row" style="justify-content: center;" >
         <h1 class="title">NUESTROS SERVICIOS</h1>
       </div>
       <landing-design-section></landing-design-section>
       <landing-documentation-section></landing-documentation-section>
       <landing-visualization-section></landing-visualization-section>
     </div>
-    <div class="section section-about-us" data-background-color="black" id="quienes-somos">
+    <div class="section section-about-us" data-background-color="black" id="quienes-somos" style="background-image:url('img/imageedit_1_3740289679.png')">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
@@ -36,7 +36,7 @@
             <div class="col-md-6">
               <div
                 class="image-container image-left"
-                style="background-image: url('img/obra_01.jpg')"
+                style="background-image: url('img/conoce-mas-landing/05_LAND_QUIENES SOMOS.jpg')"
               >
                 <!-- First image on the left side -->
               </div>
@@ -47,7 +47,7 @@
               <!-- First image on the right side, above the article -->
               <div
                 class="image-container image-right"
-                style="background-image: url('img/obra_02.jpg')"
+                style="background-image: url('img/conoce-mas-landing/06_LAND_QUIENES SOMOS.jpg')"
               ></div>
 
             </div>
@@ -66,7 +66,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-team text-center" >
+    <div class="section section-team text-center" style="background-image:url('img/imageedit_1_3740289679.png')">
       <div class="container">
         <h2 class="title">EL EQUIPO</h2>
         <div class="team">
