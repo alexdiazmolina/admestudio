@@ -1,7 +1,7 @@
 <template>
   <div
     class="section section-signup"
-    style="background-image: url('img/daniel-dinuzzo-qCjolcMFaLI-unsplash.jpg'); background-size: cover; background-position: top center; min-height: 700px;"
+    style="background-image: url('img/home/02_Fondo-home-contacto.jpg'); background-size: cover; background-position: top center; min-height: 700px;"
   >
     <div class="container">
       <div class="row">

@@ -14,17 +14,17 @@
           >
             <tab-pane title="Renders">
               <div slot="label" style="font-weight: bold;">
-                RENDERS
+                BROCHURE
               </div>
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/C01.jpg" class="img-raised" />
-                    <img src="img/C01.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/brochure/01_H_Brochure.png" class="img-raised" />
+                    <img src="img/home/portfolio/brochure/02_H_Brochure.png" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/C01.jpg" alt="" class="img-raised" />
-                    <img src="img/C01.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/brochure/03_H_Brochure.png" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/brochure/04_H_Brochure.png" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
@@ -32,18 +32,18 @@
 
             <tab-pane title="Videos">
               <div slot="label" style="font-weight: bold;">
-                VIDEOS
+                BIM
               </div>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/EXT-01.jpg" alt="" class="img-raised" />
-                    <img src="img/EXT-01.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/bim/01_H_BIM.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/bim/02_H_BIM.png" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/EXT-01.jpg" alt="" class="img-raised" />
-                    <img src="img/EXT-01.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/bim/03_H_BIM.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/bim/04_H_BIM.jpg" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
@@ -51,18 +51,18 @@
 
             <tab-pane title="Brochures">
               <div slot="label" style="font-weight: bold;">
-                BROCHURESb
+                RENDERS
               </div>
 
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/INT_01.jpg" alt="" class="img-raised" />
-                    <img src="img/INT_01.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/renders/01_H_Render.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/renders/02_H_Render.tif" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/INT_01.jpg" alt="" class="img-raised" />
-                    <img src="img/INT_01.jpg" class="img-raised" />
+                    <img src="img/home/portfolio/renders/03_H_Render.jpg" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/renders/04_H_Render.jpg" class="img-raised" />
                   </div>
                 </div>
               </div>

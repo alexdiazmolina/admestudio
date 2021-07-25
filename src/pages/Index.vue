@@ -3,7 +3,7 @@
     <div class="page-header clear-filter" filter-color="orange">
       <parallax
         class="page-header-image"
-        style="background-image:url('img/daniel-dinuzzo-qCjolcMFaLI-unsplash.jpg')"
+        style="background-image:url('img/home/01_Fondo-home-portada.jpg')"
       >
       </parallax>
       <div class="container">
@@ -22,7 +22,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/disenio.png"
+                  src="img/home/nuestros_servicios/01_CIRC_DISEÑO.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
@@ -43,7 +43,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/disenio.png"
+                  src="/img/home/nuestros_servicios/02_CIRC_DOCUMENTACION.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
@@ -64,7 +64,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/disenio.png"
+                  src="img/home/nuestros_servicios/03_CIRC_VISUALIZACION.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"

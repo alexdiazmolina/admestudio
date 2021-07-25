@@ -47,7 +47,7 @@
       <li class="nav-item">
         <router-link
           class="nav-link"
-          to="conoce-mas"
+          to="/conoce-mas#quienes-somos"
           target="_blank"
         >
           <i class="now-ui-icons business_badge"></i>
@@ -85,7 +85,7 @@
           rel="tooltip"
           title="Síguenos en Facebook"
           data-placement="bottom"
-          href=""
+          href="https://www.facebook.com/ADMEstudio.Arq"
           target="_blank"
         >
           <i class="fab fa-facebook-square"></i>
@@ -98,7 +98,7 @@
           rel="tooltip"
           title="Síguenos en Linkedin"
           data-placement="bottom"
-          href=""
+          href="https://www.linkedin.com/company/admestudio/"
           target="_blank"
         >
           <i class="fab fa-linkedin"></i>
