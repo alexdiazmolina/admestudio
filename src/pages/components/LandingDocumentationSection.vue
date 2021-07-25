@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12" style="align-self: center;">
-          <img src="img/conoce-mas-landing/04_LAND_VISUALIZACION.jpg" alt="obra_plano" style="inline-size: -webkit-fill-available;">
+          <img src="img/conoce-mas-landing/03_LAND_DOCUMENTACION.jpeg" alt="obra_plano" style="inline-size: -webkit-fill-available;">
         </div>
         <div class="col-lg-6 col-md-12">
           <h2 class="title">DOCUMENTACIÓN</h2>
