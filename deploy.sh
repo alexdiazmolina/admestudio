@@ -2,13 +2,12 @@
 
 set -e
 
-npm run build
+yarn build
 
 cd dist
 
-git init
 git add -A
-git push -m 'New Deployment'
-git push -f git@github.com:alexdiazmolina/admestudio.git master:gh-pages
+git commit -m 'New Deployment'
+git push -f origin master:gh-pages
 
 cs -

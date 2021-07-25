@@ -7,4 +7,3 @@ module.exports = {
     devtool: 'source-map'
   }
 };
-z|
