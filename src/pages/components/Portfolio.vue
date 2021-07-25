@@ -1,5 +1,5 @@
 <template>
-  <div class="section section-examples" data-background-color="black">
+  <div class="section section-examples" data-background-color="black" style="background-image:url('img/imageedit_1_3740289679.png')">
     <div class="container text-center">
       <div class="title">
         <h2 class="title">Conocé nuestro trabajo</h2>
@@ -58,7 +58,7 @@
                 <div class="row collections">
                   <div class="col-md-6">
                     <img src="img/home/portfolio/renders/01_H_Render.jpg" alt="" class="img-raised" />
-                    <img src="img/home/portfolio/renders/02_H_Render.tif" alt="" class="img-raised" />
+                    <img src="img/home/portfolio/renders/02_H_Render.jpg" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
                     <img src="img/home/portfolio/renders/03_H_Render.jpg" alt="" class="img-raised" />

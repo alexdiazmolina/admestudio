@@ -2,7 +2,7 @@
   <div class="section section-nucleo-icons">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-12" style="align-self: center;">
+        <div class="col-lg-6 col-md-12">
           <h2 class="title">DISEÑO</h2>
           <p>
             Diseñamos tu casa ideal con proyectos que se adaptan a tu presupuesto.
@@ -24,7 +24,7 @@
             locales gastronómicos y comerciales.
           </p>
         </div>
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12" style="align-self: center;">
           <img src="img/ampliacion.jpg" alt="obra_plano" style="inline-size: -webkit-fill-available;">
         </div>
       </div>

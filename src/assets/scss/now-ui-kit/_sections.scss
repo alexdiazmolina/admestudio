@@ -1,5 +1,5 @@
 .section{
-    padding: 20px 0;
+    padding: 40px 0;
     position: relative;
     background: $white-color;
 
@@ -109,7 +109,8 @@
     }
 
     &[filter-color="orange"]{
-        @include linear-gradient(rgba($black-color,.20), rgb(0 0 0 / 74%));
+        // Opcion 1: @include linear-gradient(rgba($black-color,.20), rgb(0 0 0 / 74%));
+        @include linear-gradient(rgba($black-color,.30), $adm-identity);
     }
 }
 
