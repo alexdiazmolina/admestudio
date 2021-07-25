@@ -32,7 +32,7 @@
           >Visita nuestro canal de YouTube</a>
         </div>
         <div class="col-lg-6 col-md-12" style="align-self: center;">
-          <img src="img/INT_01.jpg" alt="obra_plano" style="inline-size: -webkit-fill-available;">
+          <img src="img/conoce-mas-landing/04_LAND_VISUALIZACION.jpg" alt="obra_plano" style="inline-size: -webkit-fill-available;">
         </div>
       </div>
       <div class="row" style="justify-content: center;">
