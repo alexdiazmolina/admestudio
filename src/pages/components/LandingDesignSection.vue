@@ -25,7 +25,7 @@
           </p>
         </div>
         <div class="col-lg-6 col-md-12" style="align-self: center;">
-          <img src="img/ampliacion.jpg" alt="obra_plano" style="inline-size: -webkit-fill-available;">
+          <img src="img/conoce-mas-landing/04_LAND_VISUALIZACION.jpg" alt="disenio" style="inline-size: -webkit-fill-available;">
         </div>
       </div>
     </div>

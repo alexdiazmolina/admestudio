@@ -43,7 +43,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="/img/home/nuestros_servicios/02_CIRC_DOCUMENTACION.jpg"
+                  src="img/home/nuestros_servicios/02_CIRC_DOCUMENTACION.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 310px;"
