@@ -1,5 +1,5 @@
 <template>
-  <div class="section section-nucleo-icons">
+  <div class="section section-nucleo-icons" style="background-image:url('img/imageedit_1_3740289679.png')">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12">

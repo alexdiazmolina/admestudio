@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-team text-center">
+    <div class="section section-team text-center" style="background-image:url('img/imageedit_1_3740289679.png')">
       <div class="container">
         <h2 id="nuestros-servicios" class="title">Nuestros servicios</h2>
         <div class="team">
@@ -25,7 +25,7 @@
                   src="img/home/nuestros_servicios/01_CIRC_DISEÑO.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
-                  style="width: 250px;"
+                  style="width: 310px;"
                 />
                 <h4 class="title">
                 <a
@@ -46,7 +46,7 @@
                   src="/img/home/nuestros_servicios/02_CIRC_DOCUMENTACION.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
-                  style="width: 250px;"
+                  style="width: 310px;"
                 />
                 <h4 class="title">
                 <a
@@ -67,7 +67,7 @@
                   src="img/home/nuestros_servicios/03_CIRC_VISUALIZACION.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
-                  style="width: 250px;"
+                  style="width: 310px;"
                 />
                 <h4 class="title">
                 <a
