@@ -10,17 +10,6 @@
       <router-link v-popover:popover1 class="navbar-brand" to="/">
         <img class="n-logo" src="img/02_LOGO BLANCO.png" alt="" style="width: 45px;"/>
       </router-link>
-      <el-popover
-        ref="popover1"
-        popper-class="popover"
-        placement="bottom"
-        width="200"
-        trigger="hover"
-      >
-        <div class="popover-body">
-          Web creada por martinandres.perez@gmail.com
-        </div>
-      </el-popover>
     </template>
     <template slot="navbar-menu">
       <drop-down
@@ -29,55 +18,52 @@
               icon="now-ui-icons design-2_ruler-pencil"
               class="nav-item"
       >
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="/" v-scroll-to="'#nuestros-servicios'">
           <i class="now-ui-icons education_paper"></i> Diseño
         </nav-link>
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="/"  v-scroll-to="'#nuestros-servicios'">
           <i class="now-ui-icons users_circle-08"></i> Documentación
         </nav-link>
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="/"  v-scroll-to="'#nuestros-servicios'" >
           <i class="now-ui-icons users_single-02"></i> Visualización
         </nav-link>
-        <nav-link to="#nuestros-servicios">
+        <nav-link to="conoce-mas" target="_blank">
           <i class="now-ui-icons users_single-02"></i> Conocé más
         </nav-link>
       </drop-down>
 
 
       <li class="nav-item">
-        <!-- TODO: direccionar -->
-        <a
+        <router-link
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit" 
-          target="_blank"
+          to="/"
+          v-scroll-to="'#home-portfolio'"
         >
           <i class="now-ui-icons location_map-big"></i>
           <p>Portfolio</p>
-        </a>
+        </router-link>
       </li>
 
       <li class="nav-item">
-        <!-- TODO: direccionar -->
-        <a
+        <router-link
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit" 
+          to="/conoce-mas#quienes-somos"
           target="_blank"
         >
           <i class="now-ui-icons business_badge"></i>
           <p>Sobre nosotros</p>
-        </a>
+        </router-link>
       </li>
 
       <li class="nav-item">
-        <!-- TODO: direccionar -->
-        <a
+        <router-link
           class="nav-link"
-          href="https://www.creative-tim.com/product/vue-now-ui-kit" 
-          target="_blank"
+          to="/"
+          v-scroll-to="'#contacto'"
         >
           <i class="now-ui-icons ui-1_email-85"></i>
           <p>Contacto</p>
-        </a>
+        </router-link>
       </li>
 
       <li class="nav-item">
@@ -86,7 +72,7 @@
           rel="tooltip"
           title="Suscribite a nuestro canal de YouTube"
           data-placement="bottom"
-          href=""
+          href="https://www.youtube.com/channel/UCujuxwfaWNjrlWHvf28F20g/"
           target="_blank"
         >
           <i class="fab fa-youtube"></i>
@@ -99,7 +85,7 @@
           rel="tooltip"
           title="Síguenos en Facebook"
           data-placement="bottom"
-          href=""
+          href="https://www.facebook.com/ADMEstudio.Arq"
           target="_blank"
         >
           <i class="fab fa-facebook-square"></i>
@@ -112,7 +98,7 @@
           rel="tooltip"
           title="Síguenos en Linkedin"
           data-placement="bottom"
-          href=""
+          href="https://www.linkedin.com/company/admestudio/"
           target="_blank"
         >
           <i class="fab fa-linkedin"></i>

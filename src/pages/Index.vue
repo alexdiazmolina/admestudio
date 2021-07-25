@@ -3,7 +3,7 @@
     <div class="page-header clear-filter" filter-color="orange">
       <parallax
         class="page-header-image"
-        style="background-image:url('img/daniel-dinuzzo-qCjolcMFaLI-unsplash.jpg')"
+        style="background-image:url('img/home/01_Fondo-home-portada.jpg')"
       >
       </parallax>
       <div class="container">
@@ -22,14 +22,14 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/disenio.png"
+                  src="img/home/nuestros_servicios/01_CIRC_DISEÑO.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
                 />
                 <h4 class="title">
                 <a
-                  href="/landing"
+                  href="#/conoce-mas"
                   class="btn btn-default btn-round btn-lg"
                   style="font-weight: bold;"
                   target="_blank"
@@ -43,14 +43,14 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/disenio.png"
+                  src="/img/home/nuestros_servicios/02_CIRC_DOCUMENTACION.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
                 />
                 <h4 class="title">
                 <a
-                href="/landing"
+                href="#/conoce-mas"
                 class="btn btn-default btn-round btn-lg"
                 style="font-weight: bold;"
                 target="_blank"
@@ -64,14 +64,14 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/disenio.png"
+                  src="img/home/nuestros_servicios/03_CIRC_VISUALIZACION.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 250px;"
                 />
                 <h4 class="title">
                 <a
-                  href="/landing"
+                  href="#/conoce-mas"
                   class="btn btn-default btn-round btn-lg"
                   style="font-weight: bold;"
                   target="_blank"
@@ -86,55 +86,22 @@
         </div>
       </div>
     </div>
-    <!-- <carousel-section></carousel-section> -->
-    <examples-section></examples-section>
-    <!-- <tabs-section></tabs-section>
-    <nucleo-icons-section></nucleo-icons-section> -->
-
-    <!-- <basic-elements></basic-elements> -->
-    <!-- <navigation></navigation> -->
-    <!-- <progress-pagination></progress-pagination> -->
-    <!-- <notifications></notifications> -->
-    <!-- <typography></typography> -->
-    
-    <!-- <javascript-components></javascript-components> -->
-    <signup-form></signup-form>
-    
-    <!-- <download-section></download-section> -->
+    <portfolio id="home-portfolio"></portfolio>
+    <contac-us-form id="contacto"></contac-us-form>
   </div>
 </template>
 <script>
 import { Parallax } from '@/components';
-// import BasicElements from './components/BasicElementsSection';
-// import Navigation from './components/Navigation';
-// import TabsSection from './components/Tabs';
-// import ProgressPagination from './components/ProgressPagination';
-// import Notifications from './components/Notifications';
-// import Typography from './components/Typography';
-// import JavascriptComponents from './components/JavascriptComponents';
-// import CarouselSection from './components/CarouselSection';
-// import NucleoIconsSection from './components/NucleoIconsSection';
-import SignupForm from './components/SignupForm';
-import ExamplesSection from './components/ExamplesSection';
-// import DownloadSection from './components/DownloadSection';
+import ContacUsForm from './components/ContacUsForm';
+import Portfolio from './components/Portfolio';
 
 export default {
   name: 'index',
   bodyClass: 'index-page',
   components: {
     Parallax,
-    // BasicElements,
-    // Navigation,
-    // TabsSection,
-    // ProgressPagination,
-    // Notifications,
-    // Typography,
-    // JavascriptComponents,
-    // CarouselSection,
-    // NucleoIconsSection,
-    SignupForm,
-    ExamplesSection,
-    //DownloadSection
+    ContacUsForm,
+    Portfolio,
   }
 };
 </script>
