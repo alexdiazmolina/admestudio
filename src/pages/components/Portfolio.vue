@@ -39,7 +39,7 @@
                 <div class="row collections">
                   <div class="col-md-6">
                     <img src="img/home/nuestro_trabajo/bim/01_H_BIM_2160.jpg" alt="" class="img-raised" />
-                    <img src="img/home/nuestro_trabajo/bim/02_H_BIM_2160.png" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/bim/02_H_BIM_2160.jpg" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
                     <img src="img/home/nuestro_trabajo/bim/03_H_BIM_2160.jpg" alt="" class="img-raised" />
