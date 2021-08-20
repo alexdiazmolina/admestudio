@@ -10,19 +10,19 @@
             <h3 class="card-title title-up">Contactanos</h3>
             <div class="social-line">
               <a
-                href="#pablo"
+                href="https://www.linkedin.com/company/admestudio/"
                 class="btn btn-neutral btn-linkedin btn-icon btn-round"
               >
                 <i class="fab fa-linkedin"></i>
               </a>
               <a
-                href="#pablo"
+                href="https://api.whatsapp.com/send?phone=541161511782"
                 class="btn btn-neutral btn-whatsapp btn-icon btn-lg btn-round"
               >
                 <i class="fab fa-whatsapp"></i>
               </a>
               <a
-                href="#pablo"
+                href="https://www.instagram.com/admestudio.arq/"
                 class="btn btn-neutral btn-instagram btn-icon btn-round"
               >
                 <i class="fab fa-instagram"></i>
