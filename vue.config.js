@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 module.exports = {
-  publicPath: '/',
+  publicPath: '/admestudio',
   css: {
     sourceMap: process.env.NODE_ENV !== 'production'
   },
