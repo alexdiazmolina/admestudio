@@ -22,7 +22,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/home/nuestros_servicios/01_CIRC_DISEÑO.jpg"
+                  src="img/home/nuestros_servicios/01_CIRC_DISEÑO_1080.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 310px;"
@@ -43,7 +43,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/home/nuestros_servicios/02_CIRC_DOCUMENTACION.jpg"
+                  src="img/home/nuestros_servicios/02_CIRC_DOCUMENTACION_1080.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 310px;"
@@ -64,7 +64,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/home/nuestros_servicios/03_CIRC_VISUALIZACION.jpg"
+                  src="img/home/nuestros_servicios/03_CIRC_VISUALIZACION_1080.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 310px;"
