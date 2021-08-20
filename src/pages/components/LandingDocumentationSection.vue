@@ -1,5 +1,5 @@
 <template>
-  <div class="section section-nucleo-icons" style="background-image:url('img/imageedit_1_3740289679.png')">
+  <div class="section section-nucleo-icons">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12" style="align-self: center;">
@@ -17,8 +17,8 @@
             Creemos que toda realización exitosa de una obra está basada en una documentación ejecutiva sólida 
             que la respalde y evacúe todas las posibles dudas. La utilización de software BIM nos permite construir 
             virtualmente el proyecto, con lo cual podemos anticiparnos a posibles colisiones o complicaciones 
-            constructivas. Al solucionar las mismas previamente estaremos dejando vía libre al avance de la obra s
-            in contratiempos.
+            constructivas. Al solucionar las mismas previamente estaremos dejando vía libre al avance de la obra
+            sin contratiempos.
           </p>
         </div>
       </div>

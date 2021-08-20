@@ -1,8 +1,8 @@
 <template>
-  <div class="section section-examples" data-background-color="black" style="background-image:url('img/imageedit_1_3740289679.png')">
+  <div class="section section-examples" data-background-color="black">
     <div class="container text-center">
       <div class="title">
-        <h2 class="title">Conocé nuestro trabajo</h2>
+        <h2 class="title">CONOCÉ NUESTRO TRABAJO</h2>
       </div>
       <div class="row">
           
