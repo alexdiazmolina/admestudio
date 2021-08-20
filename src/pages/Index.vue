@@ -87,7 +87,7 @@
       </div>
     </div>
     <portfolio id="home-portfolio"></portfolio>
-    <contac-us-form id="contacto"></contac-us-form>
+    <contac-us-form></contac-us-form>
   </div>
 </template>
 <script>
