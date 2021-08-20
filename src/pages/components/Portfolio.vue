@@ -19,12 +19,12 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/home/portfolio/brochure/01_H_Brochure.png" class="img-raised" />
-                    <img src="img/home/portfolio/brochure/02_H_Brochure.png" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/brochure/01_H_Brochure_2160.png" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/brochure/02_H_Brochure_2160.png" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/home/portfolio/brochure/03_H_Brochure.png" alt="" class="img-raised" />
-                    <img src="img/home/portfolio/brochure/04_H_Brochure.png" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/brochure/03_H_Brochure_2160.png" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/brochure/04_H_Brochure_2160.png" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
@@ -38,12 +38,12 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/home/portfolio/bim/01_H_BIM.jpg" alt="" class="img-raised" />
-                    <img src="img/home/portfolio/bim/02_H_BIM.png" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/bim/01_H_BIM_2160.jpg" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/bim/02_H_BIM_2160.jpg" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/home/portfolio/bim/03_H_BIM.jpg" alt="" class="img-raised" />
-                    <img src="img/home/portfolio/bim/04_H_BIM.jpg" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/bim/03_H_BIM_2160.jpg" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/bim/04_H_BIM_2160.jpg" alt="" class="img-raised" />
                   </div>
                 </div>
               </div>
@@ -57,12 +57,12 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="row collections">
                   <div class="col-md-6">
-                    <img src="img/home/portfolio/renders/01_H_Render.jpg" alt="" class="img-raised" />
-                    <img src="img/home/portfolio/renders/02_H_Render.jpg" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/renders/01_H_Render_2160.jpg" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/renders/02_H_Render_2160.jpg" alt="" class="img-raised" />
                   </div>
                   <div class="col-md-6">
-                    <img src="img/home/portfolio/renders/03_H_Render.jpg" alt="" class="img-raised" />
-                    <img src="img/home/portfolio/renders/04_H_Render.jpg" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/renders/03_H_Render_2160.jpg" alt="" class="img-raised" />
+                    <img src="img/home/nuestro_trabajo/renders/04_H_Render_2160.jpg" class="img-raised" />
                   </div>
                 </div>
               </div>
