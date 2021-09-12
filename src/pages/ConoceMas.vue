@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-team text-center" style="background-image:url('img/imageedit_1_3740289679.png')">
+    <div class="section section-team text-center">
       <div class="row" style="justify-content: center;" >
         <h1 class="title">NUESTROS SERVICIOS</h1>
       </div>
@@ -20,13 +20,13 @@
       <landing-documentation-section></landing-documentation-section>
       <landing-visualization-section></landing-visualization-section>
     </div>
-    <div class="section section-about-us" data-background-color="black" id="quienes-somos" style="background-image:url('img/imageedit_1_3740289679.png')">
+    <div class="section section-about-us" data-background-color="black" id="quienes-somos">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
             <h2 class="title">¿QUIÉNES SOMOS?</h2>
             <h5 class="description">
-              Un equipo apasionado por la arquitectura, las nuevas tecnologías constructivas y de softwares en pos de trasladar todo beneficio hacia el proyecto y nuestros clientes. Nos encontramos en constante capacitación y en contacto con los principales referentes del sector.
+              Un equipo apasionado por la arquitectura, las nuevas tecnologías constructivas y software en pos de trasladar todo beneficio hacia el proyecto y nuestros clientes. Nos encontramos en constante capacitación y en contacto con los principales referentes del sector.
             </h5>
           </div>
         </div>
@@ -66,7 +66,7 @@
         </div>
       </div>
     </div>
-    <div class="section section-team text-center" style="background-image:url('img/imageedit_1_3740289679.png')">
+    <div class="section section-team text-center">
       <div class="container">
         <h2 class="title">EL EQUIPO</h2>
         <div class="team">

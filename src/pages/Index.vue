@@ -14,15 +14,15 @@
         </div>
       </div>
     </div>
-    <div class="section section-team text-center" style="background-image:url('img/imageedit_1_3740289679.png')">
+    <div class="section section-team text-center">
       <div class="container">
-        <h2 id="nuestros-servicios" class="title">Nuestros servicios</h2>
+        <h2 id="nuestros-servicios" class="title">NUESTROS SERVICIOS</h2>
         <div class="team">
           <div class="row">
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/home/nuestros_servicios/01_CIRC_DISEÑO.jpg"
+                  src="img/home/nuestros_servicios/01_CIRC_DISEÑO_1080.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 310px;"
@@ -43,7 +43,7 @@
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="/img/home/nuestros_servicios/02_CIRC_DOCUMENTACION.jpg"
+                  src="img/home/nuestros_servicios/02_CIRC_DOCUMENTACION_1080.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 310px;"
@@ -57,14 +57,14 @@
                 >DOCUMENTACION</a>
                 </h4>
                 <p class="description">
-                  Realizamos documentación ejecutiva con software BIM de todo tipo de proyectos.
+                  Elaboramos modelo BIM con Archicad, aplicable a todo tipo de proyectos, del cual extraemos documentación ejecutiva, información y cómputos.
                 </p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="team-player">
                 <img
-                  src="img/home/nuestros_servicios/03_CIRC_VISUALIZACION.jpg"
+                  src="img/home/nuestros_servicios/03_CIRC_VISUALIZACION_1080.jpg"
                   alt="Thumbnail Image"
                   class="rounded-circle img-fluid img-raised"
                   style="width: 310px;"
@@ -87,7 +87,7 @@
       </div>
     </div>
     <portfolio id="home-portfolio"></portfolio>
-    <contac-us-form id="contacto"></contac-us-form>
+    <contac-us-form></contac-us-form>
   </div>
 </template>
 <script>

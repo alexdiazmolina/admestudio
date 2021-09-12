@@ -28,7 +28,7 @@
           <i class="now-ui-icons users_single-02"></i> Visualización
         </nav-link>
         <nav-link to="conoce-mas" target="_blank">
-          <i class="now-ui-icons users_single-02"></i> Conocé más
+          <i class="now-ui-icons travel_info"></i> Conocé más
         </nav-link>
       </drop-down>
 
@@ -83,7 +83,7 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Síguenos en Facebook"
+          title="Seguinos en Facebook"
           data-placement="bottom"
           href="https://www.facebook.com/ADMEstudio.Arq"
           target="_blank"
@@ -96,7 +96,7 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Síguenos en Linkedin"
+          title="Seguinos en Linkedin"
           data-placement="bottom"
           href="https://www.linkedin.com/company/admestudio/"
           target="_blank"
@@ -109,7 +109,7 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Síguenos en Instagram"
+          title="Seguinos en Instagram"
           data-placement="bottom"
           href="https://www.instagram.com/admestudio.arq/"
           target="_blank"
@@ -122,7 +122,7 @@
         <a
           class="nav-link"
           rel="tooltip"
-          title="Escribinos a nuestero Whatsapp"
+          title="Escribinos a nuestro Whatsapp"
           data-placement="bottom"
           href="https://api.whatsapp.com/send?phone=541161511782"
           target="_blank"

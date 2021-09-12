@@ -4,7 +4,7 @@
     :class="{ [`footer-${type}`]: type }"
     :data-background-color="backgroundColor"
   >
-    <div class="container">
+    <div class="container"  id="contacto">
       <nav>
         <ul>
           <li>
